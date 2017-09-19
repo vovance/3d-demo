@@ -34,6 +34,7 @@ module.exports = function (env) {
     devServer: {
       inline: true,
       port: port,
+      host: 'ec2-35-166-135-246.us-west-2.compute.amazonaws.com',
       contentBase: path.join(__dirname, './dist'),
     },
     resolve: {
