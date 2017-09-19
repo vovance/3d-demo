@@ -32,6 +32,7 @@ module.exports = function (env) {
     },
     devtool: isProduction ? 'source-map' : 'eval',
     devServer: {
+      inline: true,
       port: port,
       contentBase: path.join(__dirname, './dist'),
     },
